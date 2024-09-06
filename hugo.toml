@@ -41,4 +41,5 @@ enableInlineShortcodes = true
 changeFreq = "weekly"
 
 [params]
-author = "tmash"
+author    = "tmash"
+gitremote = "https://codeberg.org/7m45h/www_7m45h/"

@@ -1,6 +1,6 @@
 <footer class="baaaar">
   <div class="item">
-    <a href="{{ .Params.gitremote }}" target="_blank">src</a>
+    <a href="{{ with .Params.gitremote }} {{ . }} {{ else }} {{ site.Params.gitremote }} {{ end }}" target="_blank">src</a>
   </div>
   <div class="item">
     {{ partial "powerdby.html" . }}

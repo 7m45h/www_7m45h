@@ -3,6 +3,7 @@ description = "list of actress I like"
 draft       = false
 keywords    = [ "actress", "list" ]
 title       = "sugar_crystals"
+gitremote   = "https://codeberg.org/7m45h/www_7m45h/src/branch/main/content/blog/sugar_crystals"
 controls    = "r: pick random"
 [[powerdby]]
 name = "pornpics"

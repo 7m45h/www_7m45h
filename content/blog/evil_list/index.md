@@ -3,7 +3,7 @@ description = "list of movies i enjoyed watching"
 draft       = false
 keywords    = [ "movie", "list" ]
 title       = "evil_list"
-gitremote   = "url"
+gitremote   = "https://codeberg.org/7m45h/www_7m45h/src/branch/main/content/blog/evil_list"
 controls    = "r: pick random"
 [[powerdby]]
 name = "impawards"
