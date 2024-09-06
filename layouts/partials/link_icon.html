@@ -1,0 +1,7 @@
+{{ if compare.Eq .MediaType.SubType "svg" }}
+  {{ with resources.Minify . }}
+    <link rel="icon" type="{{ .MediaType.Type }}" href="{{ .RelPermalink }}">
+  {{ end }}
+{{ else }}
+    <link rel="icon" type="{{ .MediaType.Type }}" sizes="{{ .Width }}x{{ .Height }}" href="{{ .RelPermalink }}">
+{{ end }}

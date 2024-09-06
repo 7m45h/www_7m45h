@@ -1,0 +1,13 @@
+{{ if .IsHome }}
+  <a class="collection-element" href="#{{ .Title }}">{{ .Title }}</a>
+  {{ range site.Sections }}
+    <a class="collection-element" href="#{{ .Title }}">{{ .Title }}</a>
+  {{ end }}
+  {{ with .Site.Data.etc_pages }}
+    <a class="collection-element" href="#etc">etc</a>
+  {{ end }}
+{{ else }}
+  {{ range site.Sections }}
+    <a class="collection-element" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  {{ end }}
+{{ end }}

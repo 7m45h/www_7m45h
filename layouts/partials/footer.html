@@ -1,0 +1,16 @@
+<footer class="baaaar">
+  <div class="item">
+    <a href="{{ .Params.gitremote }}" target="_blank">src</a>
+  </div>
+  <div class="item">
+    {{ partial "powerdby.html" . }}
+  </div>
+  <div class="item spacer">
+    {{ with .Params.controls }}
+      {{ . }}
+    {{ end }}
+  </div>
+  <div class="item">
+    <time datetime="{{ .Lastmod | time.Format "2006-01-02" }}">{{ .Lastmod | time.Format "2006-01-02" }}</time>
+  </div>
+</footer>

@@ -1,0 +1,12 @@
+<a class="collection-element" href="https://gohugo.io/" target="_blank">hugo</a>
+<a class="collection-element" href="https://github.com/" target="_blank">github</a>
+<a class="collection-element" href="https://render.com/" target="_blank">render</a>
+{{ if .HasShortcode "random_image" }}
+  <a class="collection-element" href="https://picsum.photos/" target="_blank">picsum.photos</a>
+  <a class="collection-element" href="https://unsplash.com/" target="_blank">unsplash</a>
+{{ end }}
+{{ with .Params.powerdby }}
+  {{ range . }}
+    <a class="collection-element" href="{{ .link }}" target="_blank">{{ .name }}</a>
+  {{ end }}
+{{ end }}

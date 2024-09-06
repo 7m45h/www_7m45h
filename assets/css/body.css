@@ -1,0 +1,69 @@
+body {
+  display: grid;
+  grid-template-rows: var(--fsize-a) var(--fsize-g) 1fr var(--fsize-g) var(--fsize-a);
+  grid-template-columns: var(--fsize-a) 1fr var(--fsize-a);
+  margin: 0px;
+  width: 100dvw;
+  height: 100dvh;
+  background: var(--color-bg);
+  font-family: "Fira Mono", monospace;
+  font-size: var(--fsize-a);
+  font-weight: bold;
+  color: var(--color-fg);
+
+  * {
+    box-sizing: border-box;
+  }
+
+  header {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    border-top: var(--border);
+    border-left: var(--border);
+    border-right: var(--border);
+  }
+
+  main {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+    border: var(--border);
+  }
+
+  footer {
+    grid-row: 4 / 5;
+    grid-column: 2 / 3;
+    border-left: var(--border);
+    border-right: var(--border);
+    border-bottom: var(--border);
+  }
+
+  a {
+    color: inherit;
+    text-decoration-thickness: 2px;
+
+    &[target="_blank"]:not(:has(img, span)) {
+      text-decoration: none;
+      white-space: break-spaces;
+
+      &::after {
+        content: " ↗  ";
+      }
+
+      &:hover {
+        &::after {
+          animation: dial 1s infinite;
+        }
+      }
+    }
+  }
+
+  :where(h1, h2, h3, h4, h5, h6) {
+    margin: 0px;
+    font-size: var(--fsize-a);
+  }
+
+  ::selection {
+    background: var(--color-fg);
+    color: var(--color-bg);
+  }
+}

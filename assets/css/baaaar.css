@@ -1,0 +1,28 @@
+.baaaar {
+  display: flex;
+
+  > .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: 100%;
+    padding: var(--fsize-a);
+
+    &.spacer {
+      flex-grow: 1;
+    }
+
+    &.squre {
+      aspect-ratio: 1 / 1;
+    }
+
+    &:not(:last-child) {
+      border-right: var(--border);
+    }
+
+    > .collection-element {
+      margin: var(--fsize-a);
+    }
+  }
+}

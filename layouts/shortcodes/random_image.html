@@ -1,0 +1,9 @@
+{{ $info_url := fmt.Printf "https://picsum.photos/seed/%d/info" time.Now.Unix }}
+
+{{ with .Get "id" }}
+  {{ $info_url = fmt.Printf "https://picsum.photos/id/%s/info" . }}
+{{ end }}
+
+{{ with resources.GetRemote $info_url | transform.Unmarshal }}
+  {{ partial "figure.html" ( dict "src" .download_url "title" .id "alt" "random image from awsome api picsum.photos" "name" .author "link" .url ) }}
+{{ end }}
