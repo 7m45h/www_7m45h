@@ -7,7 +7,8 @@
     justify-content: center;
     width: max-content;
     height: 100%;
-    padding: var(--fsize-a);
+    padding-left: var(--fsize-a);
+    padding-right: var(--fsize-a);
 
     &.spacer {
       flex-grow: 1;
@@ -15,6 +16,8 @@
 
     &.squre {
       aspect-ratio: 1 / 1;
+      padding-top: var(--fsize-a);
+      padding-bottom: var(--fsize-a);
     }
 
     &:not(:last-child) {
@@ -22,7 +25,8 @@
     }
 
     > .collection-element {
-      margin: var(--fsize-a);
+      margin-left: var(--fsize-a);
+      margin-right: var(--fsize-a);
     }
   }
 }

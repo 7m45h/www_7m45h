@@ -38,20 +38,31 @@ body {
   }
 
   a {
-    color: inherit;
+    color: var(--color-fg);
     text-decoration-thickness: 2px;
 
-    &[target="_blank"]:not(:has(img, span)) {
-      text-decoration: none;
-      white-space: break-spaces;
+    &:not(:has(img, span)) {
+      &:not([target="_blank"]):not(#home-btn) {
+        padding: calc(var(--fsize-a) / 4);
 
-      &::after {
-        content: " ↗  ";
+        &:hover {
+          color: var(--color-black);
+          background: var(--color-accent);
+        }
       }
 
-      &:hover {
+      &[target="_blank"] {
+        text-decoration: none;
+        white-space: break-spaces;
+
         &::after {
-          animation: dial 1s infinite;
+          content: " ↗  ";
+        }
+
+        &:hover {
+          &::after {
+            animation: dial 1s infinite;
+          }
         }
       }
     }

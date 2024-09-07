@@ -24,8 +24,12 @@
   --color-black: #000000;
   --color-white: #ffffff;
 
+  --color-green-light: #6ed962;
+  --color-green-dark:  #6ed962;
+
   --color-fg:light-dark(var(--color-black), var(--color-white));
   --color-bg:light-dark(var(--color-white), var(--color-black));
+  --color-accent: light-dark(var(--color-green-light), var(--color-green-dark));
 
   --fsize-a: 1dvw;
   --fsize-b: calc(var(--fsize-a) * 1.5);
