@@ -19,9 +19,12 @@ header {
     > img {
       width: 100%;
       height: 100%;
+      transition: transform 500ms;
+    }
 
-      &:hover {
-        scale: 1.25;
+    &:hover {
+      img {
+        transform: scaleX(-1);
       }
     }
   }
