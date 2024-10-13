@@ -20,7 +20,7 @@ link = "https://github.com/7m45h/evil_manager"
 +++
 
 {{< evil_lister.inline >}}
-  {{ with site.Data.evil_list }}
+  {{ with site.Data.evil_list | collections.Shuffle }}
     {{ range . }}
       {{ $name := ( collections.Index . 0 ) }}
       {{ $year := ( collections.Index . 1 ) }}

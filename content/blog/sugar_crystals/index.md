@@ -14,7 +14,7 @@ link = "https://www.elitebabes.com/"
 +++
 
 {{< sugar_lister.inline >}}
-  {{ with site.Data.sugar_crystals }}
+  {{ with site.Data.sugar_crystals | collections.Shuffle }}
     {{ range . }}
       {{ partial "anchor_card.html" ( dict "url" ( collections.Index . 1 ) "name" ( collections.Index . 0 ) "ext" true ) }}
     {{ end }}
