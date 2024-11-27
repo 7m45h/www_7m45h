@@ -1,0 +1,48 @@
+@keyframes dial {
+  0% {
+    content: "    ";
+  }
+
+  25% {
+    content: " .  ";
+  }
+
+  50% {
+    content: " .. ";
+  }
+
+  75% {
+    content: " ...";
+  }
+
+  100% {
+    content: "    ";
+  }
+}
+
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  --color-green-light: #6ed962;
+  --color-green-dark:  #6ed962;
+
+  --color-fg:light-dark(var(--color-black), var(--color-white));
+  --color-bg:light-dark(var(--color-white), var(--color-black));
+  --color-accent: light-dark(var(--color-green-light), var(--color-green-dark));
+
+  --fsize-a: 1dvw;
+  --fsize-b: calc(var(--fsize-a) * 1.5);
+  --fsize-c: calc(var(--fsize-a) * 2);
+  --fsize-d: calc(var(--fsize-a) * 2.5);
+  --fsize-e: calc(var(--fsize-a) * 3);
+  --fsize-f: calc(var(--fsize-a) * 3.5);
+  --fsize-g: calc(var(--fsize-a) * 4);
+
+  --default-size: 2px;
+  --default-size-a: calc(var(--default-size) * 2);
+  --default-size-b: calc(var(--default-size) * 4);
+
+  --border: var(--default-size) solid var(--color-fg);
+  --time: 250ms;
+}

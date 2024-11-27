@@ -1,0 +1,14 @@
+<figure>
+  {{ with resources.GetRemote .src }}
+    {{ with resources.Copy ( fmt.Printf "images/%s/%s.%s" ( urls.Parse $.src ).Hostname $.title .MediaType.SubType ) . }}
+      {{ $img_a := .Process "webp photo" }}
+      {{ $img_b := .Resize ( fmt.Printf "%dx webp photo" ( math.Div .Width 2 ) ) }}
+      {{ $img_c := .Resize ( fmt.Printf "%dx webp photo" ( math.Div .Width 4 ) ) }}
+      {{ $img_d := .Resize ( fmt.Printf "%dx webp photo" ( math.Div .Width 8 ) ) }}
+      <img src="{{ .RelPermalink }}" alt="{{ $.alt }}" srcset="{{ $img_a.RelPermalink }} {{ $img_a.Width }}w, {{ $img_b.RelPermalink }} {{ $img_b.Width }}w, {{ $img_c.RelPermalink }} {{ $img_c.Width }}w, {{ $img_d.RelPermalink }} {{ $img_d.Width }}w" loading="lazy">
+    {{ end }}
+  {{ end }}
+  <figcaption>
+    <a href="{{ .link }}" target="_blank">{{ .title }}: {{ .name }}</a>
+  </figcaption>
+</figure>

@@ -1,0 +1,20 @@
+<header class="baaaar">
+  <div class="item squre">
+    <a id="home-btn" href="/#home"></a>
+  </div>
+  <div class="item">
+    <a class="collection-element" href="/#pages">pages</a>
+  </div>
+  <div class="item spacer">
+    <h1 id="page-title">{{ .Title }}</h1>
+  </div>
+  <div class="item squre">
+    <a id="le-xmr" href="monero:8BMnsMnRszwhFwMUkevEg4c8TXf5WQqQy2PnSSn1Uzxf59fNSjXiyNvAkrjZgZ7uEWEew5U7BfRcvixdrwLvneEe14d4gEB?recipient_name={{ .GitInfo.AuthorName }}">
+    {{ with resources.Get "images/monero.svg" | resources.Minify }}
+      <img src="{{ .RelPermalink }}" alt="black and white monero logo">
+    {{ else }}
+      xmr
+    {{ end }}
+    </a>
+  </div>
+</header>

@@ -1,0 +1,32 @@
+.baaaar {
+  display: flex;
+
+  > .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: 100%;
+    padding-left: var(--fsize-a);
+    padding-right: var(--fsize-a);
+
+    &.spacer {
+      flex-grow: 1;
+    }
+
+    &.squre {
+      aspect-ratio: 1 / 1;
+      padding-top: var(--fsize-a);
+      padding-bottom: var(--fsize-a);
+    }
+
+    &:not(:last-child) {
+      border-right: var(--border);
+    }
+
+    > .collection-element {
+      margin-left: var(--fsize-a);
+      margin-right: var(--fsize-a);
+    }
+  }
+}

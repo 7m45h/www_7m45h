@@ -1,0 +1,22 @@
+.evil-poster {
+  margin: var(--fsize-c);
+
+  & > img {
+    transition-property: transform, filter;
+    transition-duration: var(--time);
+    border: var(--border);
+    object-fit: cover;
+    width: 240px;
+    height: 360px;
+    filter: grayscale(1);
+  }
+
+  &:hover, &:focus {
+    outline: none;
+
+    & img {
+      transform: scale(1.4);
+      filter: grayscale(0);
+    }
+  }
+}

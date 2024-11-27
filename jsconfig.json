@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "NodeNext",
+    "checkJs": true,
+    "experimentalDecorators": true,
+    "baseUrl": "."
+  }
+}

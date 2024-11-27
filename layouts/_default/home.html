@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <div id="{{ .Title }}" class="section">
+    {{ .Content }}
+  </div>
+  <div id="pages" class="section">
+    {{ partial "page_lister.html" . }}
+    {{ with site.Data.etc_pages.page }}
+      {{ range . }}
+        {{ partial "anchor_card.html" ( dict "url" .link "name" .name "ext" true ) }}
+      {{ end }}
+    {{ end }}
+  </div>
+{{ end }}

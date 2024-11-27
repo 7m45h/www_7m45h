@@ -1,0 +1,22 @@
+figure {
+  padding: var(--fsize-a);
+
+  & img {
+    display: block;
+    object-fit: cover;
+    margin: 0px auto;
+    border: var(--border);
+    border-radius: var(--fsize-a);
+    height: 50dvh;
+    max-width: 100%;
+  }
+
+  & figcaption {
+    margin: var(--fsize-a) auto 0px auto;
+    width: fit-content;
+
+    & a::before {
+      content: "©";
+    }
+  }
+}
