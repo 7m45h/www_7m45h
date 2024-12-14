@@ -1,24 +1,21 @@
-# baseURL                = ""
-capitalizeListTitles   = false
-cleanDestinationDir    = true
+capitalizeListTitles = false
+cleanDestinationDir = true
 defaultContentLanguage = "en-us"
-copyright              = "AGPL-3.0 license"
-disableKinds           = [ "rss", "taxonomy", "term" ]
-enableGitInfo          = true
-enableRobotsTXT        = true
-languageCode           = "en-us"
-noChmod                = true
-noTimes                = true
-pluralizeListTitles    = false
-removePathAccents      = true
-timeout                = "1m"
-timeZone               = "UTC"
-title                  = "7m45h"
-titleCaseStyle         = nan
-ignoreFiles            = ['\.bck'] # ignore helix .bck files
+copyright = "AGPL-3.0 license"
+disableKinds = ["RSS", "taxonomy", "term"]
+enableGitInfo = true
+enableRobotsTXT = true
+languageCode = "en-us"
+noChmod = true
+noTimes = true
+pluralizeListTitles = false
+removePathAccents = true
+timeout = "60s"
+timeZone = "Etc/Universal"
+title = "7m45h"
 
 [build]
-noJSConfigInAssets   = true
+noJSConfigInAssets = true
 useResourceCacheWhen = "always"
 [build.buildStats]
 enable = true
@@ -38,8 +35,8 @@ keepNumbers = true
 enableInlineShortcodes = true
 
 [sitemap]
-changeFreq = "weekly"
+changefreq = "weekly"
 
 [params]
-author    = "tmash"
-gitremote = "https://codeberg.org/7m45h/www_7m45h/"
+author = "tmash"
+gitremote = "https://github.com/7m45h/www_7m45h/tree/master/"

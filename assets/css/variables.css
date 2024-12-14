@@ -24,8 +24,8 @@
   --color-black: #000000;
   --color-white: #ffffff;
 
-  --color-green-light: #6ed962;
-  --color-green-dark:  #6ed962;
+  --color-green-light: #8fd14f;
+  --color-green-dark:  #8fd14f;
 
   --color-fg:light-dark(var(--color-black), var(--color-white));
   --color-bg:light-dark(var(--color-white), var(--color-black));
