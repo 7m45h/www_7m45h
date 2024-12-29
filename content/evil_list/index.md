@@ -27,7 +27,7 @@ link = "https://github.com/7m45h/evil_manager"
       {{ $imdb := ( collections.Index . 2 ) }}
       {{ $title  := printf "%s %s" $name $year }}
       {{ $poster := printf "images/evil_posters/%s.*" $imdb }}
-      <a class="evil-poster" href="https://www.imdb.com/title/{{ $imdb }}/" title="{{ $title }}" target="_blank">
+      <a class="evil-poster" href="https://www.imdb.com/title/tt{{ $imdb }}/" title="{{ $title }}" target="_blank">
         {{ with resources.GetMatch $poster }}
           <img src="{{ .RelPermalink }}" alt="{{ $title }}" loading="lazy">
         {{ end }}
