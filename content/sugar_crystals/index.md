@@ -11,6 +11,12 @@ link = "https://www.pornpics.com/"
 [[powerdby]]
 name = "elitebabes"
 link = "https://www.elitebabes.com/"
+[[powerdby]]
+name = "babepedia"
+link = "https://www.babepedia.com/"
+[[powerdby]]
+name = "indexxx"
+link = "https://www.indexxx.com/"
 +++
 
 {{< sugar_lister.inline >}}
