@@ -1,3 +1,3 @@
-import RandomElement from "assets/scripts/libs/focus_random_element";
+import ListNavigator from "assets/scripts/list_navigator";
 
-RandomElement.registor("a.anchor-card");
+ListNavigator.registor("a.anchor-card");

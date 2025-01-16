@@ -4,7 +4,7 @@ draft       = false
 keywords    = [ "actress", "list" ]
 title       = "sugar_crystals"
 gitremote   = "content/sugar_crystals"
-controls    = "r: pick random"
+controls    = "h: prev r: pick random l: next"
 [[powerdby]]
 name = "pornpics"
 link = "https://www.pornpics.com/"

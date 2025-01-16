@@ -4,7 +4,7 @@ draft       = false
 keywords    = [ "movie", "list" ]
 title       = "evil_list"
 gitremote   = "content/evil_list"
-controls    = "r: pick random"
+controls    = "h: prev r: pick random l: next"
 [[powerdby]]
 name = "impawards"
 link = "http://www.impawards.com/"
