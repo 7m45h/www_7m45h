@@ -16,7 +16,7 @@ name = "imdb"
 link = "https://www.imdb.com/"
 [[powerdby]]
 name = "evil manager"
-link = "https://github.com/7m45h/evil_manager"
+link = "https://codeberg.org/7m45h/evil_manager"
 +++
 
 {{< evil_lister.inline >}}
