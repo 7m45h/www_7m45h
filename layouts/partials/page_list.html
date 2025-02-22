@@ -1,0 +1,26 @@
+<ul>
+    {{ with .RegularPages }}
+        <li>
+            <a href="{{ $.RelPermalink }}">&period;</a>
+            <ul>
+                {{ range . }}
+                    <li>{{ partial "page_link.html" . }}</li>
+                {{ end }}
+            </ul>
+        </li>
+    {{ end }}
+    {{ with .Sections }}
+        {{ range . }}
+            <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                {{ with .RegularPages }}
+                    <ul>
+                        {{ range . }}
+                            <li>{{ partial "page_link.html" . }}</li>
+                        {{ end }}
+                    </ul>
+                {{ end }}
+            </li>
+        {{ end }}
+    {{ end }}
+</ul>

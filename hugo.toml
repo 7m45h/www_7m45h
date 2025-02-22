@@ -1,0 +1,45 @@
+capitalizeListTitles = false
+cleanDestinationDir = true
+copyright = "agpl-3.0-or-later"
+disableKinds = ["RSS", "taxonomy", "term"]
+enableGitInfo = true
+enableRobotsTXT = true
+languageCode = "en"
+noChmod = true
+noTimes = true
+pluralizeListTitles = false
+printUnusedTemplates = true
+templateMetrics = true
+templateMetricsHints = true
+timeout = "60s"
+timeZone = "Etc/Universal"
+title = "7m45h"
+uglyURLs = true
+
+[build]
+noJSConfigInAssets = true
+useResourceCacheWhen = "always"
+[build.buildStats]
+enable = true
+
+[minify]
+minifyOutput = true
+[minify.tdewolff.css]
+keepCSS2 = false
+[minify.tdewolff.html]
+keepDefaultAttrVals = false
+keepQuotes = true
+[minify.tdewolff.js]
+version = 0
+[minify.tdewolff.json]
+keepNumbers = true
+
+[params]
+author = "tmash"
+src = "https://github.com/7m45h/www_7m45h/tree/master/"
+
+[security]
+enableInlineShortcodes = true
+
+[sitemap]
+changefreq = "weekly"

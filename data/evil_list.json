@@ -1,0 +1,762 @@
+[
+  [
+    "Cat Shit One",
+    "2010",
+    "2368669"
+  ],
+  [
+    "Come and See",
+    "1985",
+    "0091251"
+  ],
+  [
+    "The Evil Dead",
+    "1981",
+    "0083907"
+  ],
+  [
+    "Harry Potter and the Sorcerer's Stone",
+    "2001",
+    "0241527"
+  ],
+  [
+    "Home Alone",
+    "1990",
+    "0099785"
+  ],
+  [
+    "Mars Attacks!",
+    "1996",
+    "0116996"
+  ],
+  [
+    "Memento",
+    "2000",
+    "0209144"
+  ],
+  [
+    "Men in Black",
+    "1997",
+    "0119654"
+  ],
+  [
+    "Mission: Impossible",
+    "1996",
+    "0117060"
+  ],
+  [
+    "The Bridge on the River Kwai",
+    "1957",
+    "0050212"
+  ],
+  [
+    "Evil Dead II",
+    "1987",
+    "0092991"
+  ],
+  [
+    "Toy Story 2",
+    "1999",
+    "0120363"
+  ],
+  [
+    "Trainspotting",
+    "1996",
+    "0117951"
+  ],
+  [
+    "28 Days Later",
+    "2002",
+    "0289043"
+  ],
+  [
+    "Aliens",
+    "1986",
+    "0090605"
+  ],
+  [
+    "Army of Darkness",
+    "1992",
+    "0106308"
+  ],
+  [
+    "Austin Powers: International Man of Mystery",
+    "1997",
+    "0118655"
+  ],
+  [
+    "Avatar",
+    "2009",
+    "0499549"
+  ],
+  [
+    "Cashback",
+    "2006",
+    "0460740"
+  ],
+  [
+    "Cowboy Bebop: The Movie",
+    "2001",
+    "0275277"
+  ],
+  [
+    "District 9",
+    "2009",
+    "1136608"
+  ],
+  [
+    "Django Unchained",
+    "2012",
+    "1853728"
+  ],
+  [
+    "Enter the Void",
+    "2009",
+    "1191111"
+  ],
+  [
+    "Godzilla",
+    "2014",
+    "0831387"
+  ],
+  [
+    "Inception",
+    "2010",
+    "1375666"
+  ],
+  [
+    "Léon: The Professional",
+    "1994",
+    "0110413"
+  ],
+  [
+    "Malicious",
+    "1973",
+    "0070358"
+  ],
+  [
+    "Monsters, Inc.",
+    "2001",
+    "0198781"
+  ],
+  [
+    "Pirates",
+    "2005",
+    "0477457"
+  ],
+  [
+    "Pirates II: Stagnetti's Revenge",
+    "2008",
+    "1266097"
+  ],
+  [
+    "Puss in Boots: The Last Wish",
+    "2022",
+    "3915174"
+  ],
+  [
+    "Rear Window",
+    "1954",
+    "0047396"
+  ],
+  [
+    "Requiem for a Dream",
+    "2000",
+    "0180093"
+  ],
+  [
+    "Se7en",
+    "1995",
+    "0114369"
+  ],
+  [
+    "Spirited Away",
+    "2001",
+    "0245429"
+  ],
+  [
+    "Superbad",
+    "2007",
+    "0829482"
+  ],
+  [
+    "The Batman",
+    "2022",
+    "1877830"
+  ],
+  [
+    "The Road to El Dorado",
+    "2000",
+    "0138749"
+  ],
+  [
+    "The Shape of Water",
+    "2017",
+    "5580390"
+  ],
+  [
+    "The Shining",
+    "1980",
+    "0081505"
+  ],
+  [
+    "The Untamed",
+    "2016",
+    "5265960"
+  ],
+  [
+    "The Wolf of Wall Street",
+    "2013",
+    "0993846"
+  ],
+  [
+    "Wild Things",
+    "1998",
+    "0120890"
+  ],
+  [
+    "Clue",
+    "1985",
+    "0088930"
+  ],
+  [
+    "There Will Be Blood",
+    "2007",
+    "0469494"
+  ],
+  [
+    "American Psycho",
+    "2000",
+    "0144084"
+  ],
+  [
+    "Fallen Angels",
+    "1995",
+    "0112913"
+  ],
+  [
+    "Spider-Man",
+    "2002",
+    "0145487"
+  ],
+  [
+    "Back to the Future",
+    "1985",
+    "0088763"
+  ],
+  [
+    "Scary Movie",
+    "2000",
+    "0175142"
+  ],
+  [
+    "Spider-Man 2",
+    "2004",
+    "0316654"
+  ],
+  [
+    "Mr. Nobody",
+    "2009",
+    "0485947"
+  ],
+  [
+    "Harry Potter and the Chamber of Secrets",
+    "2002",
+    "0295297"
+  ],
+  [
+    "V/H/S",
+    "2012",
+    "2105044"
+  ],
+  [
+    "Avatar: The Way of Water",
+    "2022",
+    "1630029"
+  ],
+  [
+    "The Lord of the Rings: The Fellowship of the Ring",
+    "2001",
+    "0120737"
+  ],
+  [
+    "Toy Story",
+    "1995",
+    "0114709"
+  ],
+  [
+    "The Others",
+    "2001",
+    "0230600"
+  ],
+  [
+    "Weird Science",
+    "1985",
+    "0090305"
+  ],
+  [
+    "Scarface",
+    "1983",
+    "0086250"
+  ],
+  [
+    "Howard the Duck",
+    "1986",
+    "0091225"
+  ],
+  [
+    "Baywatch",
+    "2017",
+    "1469304"
+  ],
+  [
+    "Hellraiser",
+    "1987",
+    "0093177"
+  ],
+  [
+    "Basic Instinct",
+    "1992",
+    "0103772"
+  ],
+  [
+    "Ferris Bueller's Day Off",
+    "1986",
+    "0091042"
+  ],
+  [
+    "The Scorpion King",
+    "2002",
+    "0277296"
+  ],
+  [
+    "Midnight Cowboy",
+    "1969",
+    "0064665"
+  ],
+  [
+    "Fast & Furious",
+    "2009",
+    "1013752"
+  ],
+  [
+    "Fast Five",
+    "2011",
+    "1596343"
+  ],
+  [
+    "Full Metal Jacket",
+    "1987",
+    "0093058"
+  ],
+  [
+    "Child's Play",
+    "1988",
+    "0094862"
+  ],
+  [
+    "X-Men",
+    "2000",
+    "0120903"
+  ],
+  [
+    "The Graduate",
+    "1967",
+    "0061722"
+  ],
+  [
+    "Sin City",
+    "2005",
+    "0401792"
+  ],
+  [
+    "Irreversible",
+    "2002",
+    "0290673"
+  ],
+  [
+    "Lady of the Night",
+    "1986",
+    "0090018"
+  ],
+  [
+    "Die Hard",
+    "1988",
+    "0095016"
+  ],
+  [
+    "Fear and Loathing in Las Vegas",
+    "1998",
+    "0120669"
+  ],
+  [
+    "The Beast",
+    "1975",
+    "0072752"
+  ],
+  [
+    "Death Race",
+    "2008",
+    "0452608"
+  ],
+  [
+    "Hackers",
+    "1995",
+    "0113243"
+  ],
+  [
+    "RoboCop",
+    "1987",
+    "0093870"
+  ],
+  [
+    "Total Recall",
+    "1990",
+    "0100802"
+  ],
+  [
+    "They Live",
+    "1988",
+    "0096256"
+  ],
+  [
+    "Tokyo Gore Police",
+    "2008",
+    "1183732"
+  ],
+  [
+    "Atonement",
+    "2007",
+    "0783233"
+  ],
+  [
+    "Bad Boys",
+    "1995",
+    "0112442"
+  ],
+  [
+    "It",
+    "2017",
+    "1396484"
+  ],
+  [
+    "The Dentist",
+    "1996",
+    "0116075"
+  ],
+  [
+    "Valerian and the City of a Thousand Planets",
+    "2017",
+    "2239822"
+  ],
+  [
+    "Drunken Master",
+    "1978",
+    "0080179"
+  ],
+  [
+    "The Addams Family",
+    "1991",
+    "0101272"
+  ],
+  [
+    "Heat",
+    "1995",
+    "0113277"
+  ],
+  [
+    "Star Trek: The Motion Picture",
+    "1979",
+    "0079945"
+  ],
+  [
+    "Tammy and the T-Rex",
+    "1994",
+    "0111361"
+  ],
+  [
+    "Batman: The Movie",
+    "1966",
+    "0060153"
+  ],
+  [
+    "DownWard Spiral",
+    "2008",
+    "1409124"
+  ],
+  [
+    "John Wick: Chapter 4",
+    "2023",
+    "10366206"
+  ],
+  [
+    "Nurses",
+    "2009",
+    "1386671"
+  ],
+  [
+    "Drive",
+    "2011",
+    "0780504"
+  ],
+  [
+    "Knock Knock",
+    "2015",
+    "3605418"
+  ],
+  [
+    "Carrie",
+    "1976",
+    "0074285"
+  ],
+  [
+    "Apocalypse Now",
+    "1979",
+    "0078788"
+  ],
+  [
+    "Willy Wonka & the Chocolate Factory",
+    "1971",
+    "0067992"
+  ],
+  [
+    "Oldboy",
+    "2003",
+    "0364569"
+  ],
+  [
+    "The Mist",
+    "2007",
+    "0884328"
+  ],
+  [
+    "Bad Taste",
+    "1987",
+    "0092610"
+  ],
+  [
+    "Splice",
+    "2009",
+    "1017460"
+  ],
+  [
+    "Dead Alive",
+    "1992",
+    "0103873"
+  ],
+  [
+    "Apocalypto",
+    "2006",
+    "0472043"
+  ],
+  [
+    "City of God",
+    "2002",
+    "0317248"
+  ],
+  [
+    "Excalibur",
+    "1981",
+    "0082348"
+  ],
+  [
+    "The Perks of Being a Wallflower",
+    "2012",
+    "1659337"
+  ],
+  [
+    "Kung Fu Hustle",
+    "2004",
+    "0373074"
+  ],
+  [
+    "Platoon",
+    "1986",
+    "0091763"
+  ],
+  [
+    "Spider-Man: Across the Spider-Verse",
+    "2023",
+    "9362722"
+  ],
+  [
+    "Monty Python and the Holy Grail",
+    "1975",
+    "0071853"
+  ],
+  [
+    "Taxi Driver",
+    "1976",
+    "0075314"
+  ],
+  [
+    "The Cabin in the Woods",
+    "2011",
+    "1259521"
+  ],
+  [
+    "Tomorrowland",
+    "2015",
+    "1964418"
+  ],
+  [
+    "The Flash",
+    "2023",
+    "0439572"
+  ],
+  [
+    "The Adventures of Buckaroo Banzai Across the 8th Dimension",
+    "1984",
+    "0086856"
+  ],
+  [
+    "Space Jam",
+    "1996",
+    "0117705"
+  ],
+  [
+    "The Odd Life of Timothy Green",
+    "2012",
+    "1462769"
+  ],
+  [
+    "Crocodile Dundee",
+    "1986",
+    "0090555"
+  ],
+  [
+    "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "1964",
+    "0057012"
+  ],
+  [
+    "Fright Night",
+    "1985",
+    "0089175"
+  ],
+  [
+    "Blade",
+    "1998",
+    "0120611"
+  ],
+  [
+    "Me and Earl and the Dying Girl",
+    "2015",
+    "2582496"
+  ],
+  [
+    "Planet Terror",
+    "2007",
+    "1077258"
+  ],
+  [
+    "The Texas Chain Saw Massacre",
+    "1974",
+    "0072271"
+  ],
+  [
+    "Barbarella",
+    "1968",
+    "0062711"
+  ],
+  [
+    "A.I. Artificial Intelligence",
+    "2001",
+    "0212720"
+  ],
+  [
+    "Prometheus",
+    "2012",
+    "1446714"
+  ],
+  [
+    "Rosemary's Baby",
+    "1968",
+    "0063522"
+  ],
+  [
+    "Fast Times at Ridgemont High",
+    "1982",
+    "0083929"
+  ],
+  [
+    "Animal Instincts",
+    "1992",
+    "0103696"
+  ],
+  [
+    "Carolina Jones and the Broken Covenant",
+    "2008",
+    "1236887"
+  ],
+  [
+    "Deathstalker",
+    "1983",
+    "0087127"
+  ],
+  [
+    "Inventing the Abbotts",
+    "1997",
+    "0119381"
+  ],
+  [
+    "Playtime",
+    "1967",
+    "0062136"
+  ],
+  [
+    "The Exorcist",
+    "1973",
+    "0070047"
+  ],
+  [
+    "Secretary",
+    "2002",
+    "0274812"
+  ],
+  [
+    "Alien: Covenant",
+    "2017",
+    "2316204"
+  ],
+  [
+    "Frankenhooker",
+    "1990",
+    "0099611"
+  ],
+  [
+    "Asteroid City",
+    "2023",
+    "14230388"
+  ],
+  [
+    "Eternal Sunshine of the Spotless Mind",
+    "2004",
+    "0338013"
+  ],
+  [
+    "Hugo",
+    "2011",
+    "0970179"
+  ],
+  [
+    "Moonrise Kingdom",
+    "2012",
+    "1748122"
+  ],
+  [
+    "Napoleon Dynamite",
+    "2004",
+    "0374900"
+  ],
+  [
+    "Cast Away",
+    "2000",
+    "0162222"
+  ],
+  [
+    "The Running Man",
+    "1987",
+    "0093894"
+  ]
+]

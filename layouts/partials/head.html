@@ -1,0 +1,20 @@
+<meta charset="utf-8">
+<meta name="color-scheme" content="dark light">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="{{ .GitInfo.AuthorName }}">
+<meta name="description" content="{{ .Description }}">
+<meta name="keywords" content="{{ collections.Delimit .Keywords ", " }}">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ .Description }}">
+{{ with resources.GetMatch "logo.avif" }}
+    <meta property="og:image" content="{{ .RelPermalink }}">
+    <meta property="og:image:type" content="{{ .MediaType.Type }}">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
+{{ end }}
+<title>{{ .Site.Title }}: {{ .Title }}</title>
+{{ with resources.GetMatch "favicon.svg" }}
+    {{ with resources.Minify . }}
+        <link rel="icon" type="{{ .MediaType.Type }}" href="{{ .RelPermalink }}">
+    {{ end }}
+{{ end }}
