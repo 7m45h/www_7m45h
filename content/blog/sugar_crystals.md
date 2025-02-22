@@ -3,7 +3,7 @@ description = "list of actress I like"
 draft = false
 keywords = ["actress", "list"]
 title = "sugar_crystals"
-src = "content/sugar_crystals.md"
+src = "content/blog/sugar_crystals.md"
 poweredby = [
   ["pornpics", "https://www.pornpics.com/"],
   ["elitebabes", "https://www.elitebabes.com/"],

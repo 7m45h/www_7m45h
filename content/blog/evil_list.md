@@ -3,7 +3,7 @@ description = "list of movies I enjoyed watching"
 draft = false
 keywords = ["movie", "list"]
 title = "evil_list"
-src = "content/evil_list.md"
+src = "content/blog/evil_list.md"
 poweredby = [
   ["impawards", "https://www.themoviedb.org/"],
   ["imdb", "https://www.imdb.com/"],
