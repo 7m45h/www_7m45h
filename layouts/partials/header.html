@@ -2,4 +2,6 @@
     <nav><a href="/">home</a></nav>
 {{ end }}
 <h1>{{ .Title }}</h1>
-<p>{{ .Description }}</p>
+{{ with .Description }}
+    <p>{{ . }}</p>
+{{ end }}
