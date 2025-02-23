@@ -1,0 +1,13 @@
+<ul>
+    {{ range .RegularPages }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+    {{ with .Sections }}
+        {{ range . }}
+            <li>
+                {{ .Title }}
+                {{ partial "page_tree.html" . }}
+            </li>
+        {{ end }}
+    {{ end }}
+</ul>

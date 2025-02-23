@@ -1,13 +1,14 @@
 <aside>
-    <ul>
-        {{ with .Params.poweredby }}
-            {{ range . }}
-                <li><a href="{{ ( collections.Index . 1 ) }}" target="_blank">{{ ( collections.Index . 0 )}}</a></li>
-            {{ end }}
-        {{ else }}
-            <li><a href="https://gohugo.io/" target="_blank">hugo</a></li>
-            <li><a href="https://github.com/" target="_blank">github</a></li>
-            <li><a href="https://pages.cloudflare.com/" target="_blank">cloudflare</a></li>
+    powerd by &colon;&nbsp;
+    {{ with .Params.poweredby }}
+        {{ range . }}
+            <a href="{{ ( collections.Index . 1 ) }}" target="_blank">{{ ( collections.Index . 0 )}}</a>
+            &plus;
         {{ end }}
-    </ul>
+    {{ end }}
+    <a href="https://gohugo.io/" target="_blank">hugo</a>
+    &plus;
+    <a href="https://github.com/" target="_blank">github</a>
+    &plus;
+    <a href="https://pages.cloudflare.com/" target="_blank">cloudflare</a>
 </aside>
