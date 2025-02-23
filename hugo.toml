@@ -14,7 +14,6 @@ templateMetricsHints = true
 timeout = "60s"
 timeZone = "Etc/Universal"
 title = "7m45h"
-uglyURLs = true
 
 [build]
 noJSConfigInAssets = true

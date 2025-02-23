@@ -1,9 +1,7 @@
 {{ define "main" }}
     <article>
         <h2>pages</h2>
-        <nav>
-            {{ partial "page_list.html" . }}
-        </nav>
+        {{ partial "page_list.html" . }}
     </article>
     {{ with .Site.Data.etc_pages }}
         <article>
