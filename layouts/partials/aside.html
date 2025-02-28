@@ -1,14 +1,14 @@
 <aside>
-    powerd by &colon;&nbsp;
+    powerd by&colon;
     {{ with .Params.poweredby }}
         {{ range . }}
             <a href="{{ ( collections.Index . 1 ) }}" target="_blank">{{ ( collections.Index . 0 )}}</a>
-            &plus;
+            &hyphen;
         {{ end }}
     {{ end }}
     <a href="https://gohugo.io/" target="_blank">hugo</a>
-    &plus;
+    &hyphen;
     <a href="https://github.com/" target="_blank">github</a>
-    &plus;
+    &hyphen;
     <a href="https://pages.cloudflare.com/" target="_blank">cloudflare</a>
 </aside>
