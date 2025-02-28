@@ -1,6 +1,5 @@
 capitalizeListTitles = false
-cleanDestinationDir = true
-copyright = "agpl-3.0-or-later"
+copyright = "AGPL-3.0-or-later"
 disableKinds = ["RSS", "taxonomy", "term"]
 enableGitInfo = true
 enableRobotsTXT = true
