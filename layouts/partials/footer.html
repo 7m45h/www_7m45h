@@ -1,8 +1,8 @@
-<a href="{{ urls.JoinPath .Site.Params.src .Params.src }}" target="_blank">src</a>
+<a href="{{ urls.JoinPath .Site.Params.src .Params.src }}">src</a>
 &hyphen;
 <a href="monero:8BMnsMnRszwhFwMUkevEg4c8TXf5WQqQy2PnSSn1Uzxf59fNSjXiyNvAkrjZgZ7uEWEew5U7BfRcvixdrwLvneEe14d4gEB?recipient_name={{ .GitInfo.AuthorName }}">xmr</a>
 &hyphen;
-<a href="https://www.gnu.org/licenses/agpl.html" target="_blank">{{ .Site.Copyright }}</a>
+<a href="https://www.gnu.org/licenses/agpl.html">{{ .Site.Copyright }}</a>
 &COPY;
 {{ $lastmod := time.Format "2006-01-02" .Lastmod }}
 <time datetime="{{ $lastmod }}">{{ $lastmod }}</time>

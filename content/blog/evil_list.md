@@ -4,11 +4,6 @@ draft = false
 keywords = ["movie", "list"]
 title = "evil_list"
 src = "content/blog/evil_list.md"
-poweredby = [
-  ["impawards", "https://www.themoviedb.org/"],
-  ["imdb", "https://www.imdb.com/"],
-  ["evil_manager", "https://codeberg.org/7m45h/evil_manager"]
-]
 +++
 
 {{< evil_lister.inline >}}
@@ -30,7 +25,7 @@ poweredby = [
             <td>{{ $name }}</td>
             <td>{{ $year }}</td>
             <td>
-              <a href="https://www.imdb.com/title/tt{{ $imdb }}/" target="_blank">tt{{ $imdb}}</a>
+              <a href="https://www.imdb.com/title/tt{{ $imdb }}/">tt{{ $imdb}}</a>
             </td>
           </tr>
         {{ end }}

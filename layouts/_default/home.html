@@ -10,7 +10,7 @@
                 {{ range . }}
                     {{ $name := ( collections.Index . 0 ) }}
                     {{ $url := ( collections.Index . 1 ) }}
-                    <li><a href="{{ $url }}" target="_blank">{{ $name }}</a></li>
+                    <li><a href="{{ $url }}">{{ $name }}</a></li>
                 {{ end }}
             </ul>
         </article>

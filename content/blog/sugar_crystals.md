@@ -4,12 +4,6 @@ draft = false
 keywords = ["actress", "list"]
 title = "sugar_crystals"
 src = "content/blog/sugar_crystals.md"
-poweredby = [
-  ["pornpics", "https://www.pornpics.com/"],
-  ["elitebabes", "https://www.elitebabes.com/"],
-  ["babepedia", "https://www.babepedia.com/"],
-  ["indexxx", "https://www.indexxx.com/"]
-]
 +++
 
 {{< sugar_lister.inline >}}
@@ -18,7 +12,7 @@ poweredby = [
       {{ range . }}
         {{ $name := ( collections.Index . 0 ) }}
         {{ $url := ( collections.Index . 1 ) }}
-        <li><a href="{{ $url }}" target="_blank">{{ $name }}</a></li>
+        <li><a href="{{ $url }}">{{ $name }}</a></li>
       {{ end }}
     </ul>
   {{ end }}
