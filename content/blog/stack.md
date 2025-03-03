@@ -3,7 +3,7 @@ description = "software and services I use"
 draft = false
 keywords = ["tech", "stack"]
 title = "stack"
-src = ""
+src = "content/blog/stack.md"
 +++
 
 - web
