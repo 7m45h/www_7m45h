@@ -3,20 +3,19 @@ description = "softwares and services"
 draft = false
 keywords = ["web", "stack"]
 title = "stack"
-src = "content/blog/stack.md"
+src = "content/stack.md"
 +++
 
 - web
   - frameworks
     - [hugo](https://gohugo.io/)
-    - [svelte](https://svelte.dev/)
 
   - hosting
     - [cloudflare pages](https://pages.cloudflare.com/)
     - [github pages](https://pages.github.com/)
-    - [render](https://render.com/)
 
   - other
+    - [evil_manager](https://codeberg.org/7m45h/evil_manager)
     - [impawards](http://www.impawards.com/)
+    - [sugar_crystaler.py](https://codeberg.org/7m45h/snippies/src/branch/master/sugar_crystaler.py)
     - [themoviedb](https://www.themoviedb.org/)
-    - [lorem picsum](https://picsum.photos/)
