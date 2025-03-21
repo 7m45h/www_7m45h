@@ -20,3 +20,6 @@
         <link rel="icon" type="{{ .MediaType.Type }}" href="{{ .RelPermalink }}">
     {{ end }}
 {{ end }}
+{{ with .OutputFormats.Get "rss" }}
+    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Title }}">
+{{ end }}

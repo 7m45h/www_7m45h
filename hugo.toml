@@ -1,6 +1,6 @@
 capitalizeListTitles = false
 copyright = "AGPL-3.0-or-later"
-disableKinds = ["RSS", "taxonomy", "term"]
+disableKinds = ["taxonomy", "term"]
 enableGitInfo = true
 enableRobotsTXT = true
 languageCode = "en"
