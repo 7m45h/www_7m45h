@@ -11,7 +11,7 @@ printUnusedTemplates = true
 templateMetrics = true
 templateMetricsHints = true
 timeout = "60s"
-timeZone = "Etc/Universal"
+timeZone = "UTC"
 title = "7m45h"
 
 [build]

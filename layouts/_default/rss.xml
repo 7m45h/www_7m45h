@@ -1,0 +1,27 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ .Site.Title }}: {{ .Title }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>{{ .Description }}</description>
+    <language>{{ .Site.Language.LanguageCode }}</language>
+    <copyright>{{ .Site.Copyright }}</copyright>
+    <lastBuildDate>{{ .Lastmod.UTC.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
+    <generator>Hugo</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <ttl>10080</ttl>
+    {{ $pages := .RegularPages }}
+    {{ if .IsHome }}
+      {{ $pages = .Site.RegularPages }}
+    {{ end }}
+    {{ range $pages }}
+      <item>
+        <title>{{ .Title }}</title>
+        <link>{{ .Permalink }}</link>
+        <description>{{ .Description }}</description>
+        <guid>{{ .Permalink }}</guid>
+        <pubDate>{{ .Lastmod.UTC.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+      </item>
+    {{ end }}
+  </channel>
+</rss>
