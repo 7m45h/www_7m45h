@@ -3,9 +3,12 @@
   <title type="text">{{ .Site.Title }}: {{ .Title }}</title>
   <updated>{{ .Lastmod.UTC.Format "2006-01-02T15:04:05Z07:00" }}</updated>
   <id>{{ .Permalink }}</id>
-  <link rel="alternate" type="text/html" hreflang="en" href="{{ .Permalink }}" />
+  <link rel="alternate" type="text/html" href="{{ .Permalink }}" />
+  {{ with .OutputFormats.Get "rss" }}
+    <link rel="alternate" type="{{ .MediaType }}" href="{{ .Permalink }}" />
+  {{ end }}
   {{ with .OutputFormats.Get "atom" }}
-    {{ printf "<link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    <link rel="self" type="{{ .MediaType }}" href="{{ .Permalink }}" />
   {{ end }}
   <rights>{{ .Site.Copyright }}</rights>
   <generator>Hugo</generator>
