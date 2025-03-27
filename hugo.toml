@@ -20,6 +20,10 @@ useResourceCacheWhen = "always"
 [build.buildStats]
 enable = true
 
+[mediaTypes]
+[mediaTypes."application/atom+xml"]
+suffixes = ["xml"]
+
 [minify]
 minifyOutput = true
 [minify.tdewolff.css]
@@ -31,6 +35,17 @@ keepQuotes = true
 version = 0
 [minify.tdewolff.json]
 keepNumbers = true
+
+[outputFormats]
+[outputFormats.atom]
+baseName = "atom"
+mediaType = "application/atom+xml"
+[outputFormats.rss]
+baseName = "rss"
+
+[outputs]
+home = ["html", "rss", "atom"]
+section = ["html", "rss", "atom"]
 
 [params]
 author = "tmash"

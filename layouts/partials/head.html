@@ -23,3 +23,6 @@
 {{ with .OutputFormats.Get "rss" }}
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Title }}">
 {{ end }}
+{{ with .OutputFormats.Get "atom" }}
+    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Title }}">
+{{ end }}

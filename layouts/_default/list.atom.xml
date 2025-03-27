@@ -1,0 +1,30 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">{{ .Site.Title }}: {{ .Title }}</title>
+  <updated>{{ .Lastmod.UTC.Format "2006-01-02T15:04:05Z07:00" }}</updated>
+  <id>{{ .Permalink }}</id>
+  <link rel="alternate" type="text/html" hreflang="en" href="{{ .Permalink }}" />
+  {{ with .OutputFormats.Get "atom" }}
+    {{ printf "<link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+  {{ end }}
+  <rights>{{ .Site.Copyright }}</rights>
+  <generator>Hugo</generator>
+  {{ $pages := .RegularPages }}
+  {{ if .IsHome }}
+    {{ $pages = .Site.RegularPages }}
+  {{ end }}
+  {{ range $pages }}
+    <entry>
+      <title>{{ .Title }}</title>
+      <id>{{ .Permalink }}</id>
+      <updated>{{ .Lastmod.UTC.Format "2006-01-02T15:04:05Z07:00" }}</updated>
+      <published>{{ .Lastmod.UTC.Format "2006-01-02T15:04:05Z07:00" }}</published>
+      <author>
+        <name>{{ .GitInfo.AuthorName }}</name>
+      </author>
+      <content type="html">
+        {{ .Summary | transform.XMLEscape | safeHTML }}
+      </content>
+    </entry>
+   {{ end }}
+</feed>

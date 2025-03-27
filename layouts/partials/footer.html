@@ -4,6 +4,10 @@
 {{ end }}
 {{ with .OutputFormats.Get "rss" }}
   <a href="{{ .Permalink }}">rss</a>
+  &sol;
+{{ end }}
+{{ with .OutputFormats.Get "atom" }}
+  <a href="{{ .Permalink }}">atom</a>
   &hyphen;
 {{ end }}
 <a href="monero:8BMnsMnRszwhFwMUkevEg4c8TXf5WQqQy2PnSSn1Uzxf59fNSjXiyNvAkrjZgZ7uEWEew5U7BfRcvixdrwLvneEe14d4gEB">xmr</a>

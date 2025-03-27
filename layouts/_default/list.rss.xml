@@ -3,6 +3,9 @@
   <channel>
     <title>{{ .Site.Title }}: {{ .Title }}</title>
     <link>{{ .Permalink }}</link>
+    {{ with .OutputFormats.Get "atom" }}
+      {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{ end }}
     <description>{{ .Description }}</description>
     <language>{{ .Site.Language.LanguageCode }}</language>
     <copyright>{{ .Site.Copyright }}</copyright>
