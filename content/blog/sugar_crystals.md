@@ -7,12 +7,10 @@ src = "content/blog/sugar_crystals.md"
 +++
 
 {{< sugar_lister.inline >}}
-  {{ with site.Data.sugar_crystals | collections.Shuffle }}
+  {{ with resources.Get "csvs/sugar_crystals.csv" | transform.Unmarshal }}
     <ul>
       {{ range . }}
-        {{ $name := ( collections.Index . 0 ) }}
-        {{ $url := ( collections.Index . 1 ) }}
-        <li><a href="{{ $url }}">{{ $name }}</a></li>
+        <li><a href="{{ collections.Index . 1 }}">{{ collections.Index . 0 }}</a></li>
       {{ end }}
     </ul>
   {{ end }}

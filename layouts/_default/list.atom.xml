@@ -21,7 +21,6 @@
       <title>{{ .Title }}</title>
       <id>{{ .Permalink }}</id>
       <updated>{{ .Lastmod.UTC.Format "2006-01-02T15:04:05Z07:00" }}</updated>
-      <published>{{ .Lastmod.UTC.Format "2006-01-02T15:04:05Z07:00" }}</published>
       <author>
         <name>{{ .GitInfo.AuthorName }}</name>
       </author>

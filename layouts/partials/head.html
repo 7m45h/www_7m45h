@@ -6,7 +6,7 @@
 <meta name="keywords" content="{{ collections.Delimit .Keywords ", " }}">
 <meta property="og:title" content="{{ .Title }}">
 <meta property="og:description" content="{{ .Description }}">
-{{ with resources.GetMatch "logo.avif" }}
+{{ with resources.Get "imgs/logo.avif" }}
     {{ with . | resources.Fingerprint "sha512" }}
         <meta property="og:image" content="{{ .RelPermalink }}">
         <meta property="og:image:type" content="{{ .MediaType.Type }}">
@@ -15,7 +15,7 @@
     {{ end }}
 {{ end }}
 <title>{{ .Site.Title }}: {{ .Title }}</title>
-{{ with resources.GetMatch "favicon.svg" }}
+{{ with resources.Get "imgs/favicon.svg" }}
     {{ with . | resources.Minify  | resources.Fingerprint "sha512" }}
         <link rel="icon" type="{{ .MediaType.Type }}" href="{{ .RelPermalink }}">
     {{ end }}

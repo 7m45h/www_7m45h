@@ -4,4 +4,5 @@
 
 ### feedback
 - [@TSach2003](https://github.com/TSach2003)
-- [@motherfuckingwebsite](https://motherfuckingwebsite.com/)
+- [motherfuckingwebsite](https://motherfuckingwebsite.com/)
+- [A love letter to the CSV format](https://github.com/medialab/xan/blob/master/docs/LOVE_LETTER.md)

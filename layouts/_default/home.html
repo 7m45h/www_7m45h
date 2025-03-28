@@ -3,14 +3,12 @@
         <h2>pages</h2>
         {{ partial "page_tree.html" . }}
     </article>
-    {{ with .Site.Data.etc_pages }}
+    {{ with resources.Get "csvs/etc_pages.csv" | transform.Unmarshal }}
         <article>
             <h2>etc</h2>
             <ul>
                 {{ range . }}
-                    {{ $name := ( collections.Index . 0 ) }}
-                    {{ $url := ( collections.Index . 1 ) }}
-                    <li><a href="{{ $url }}">{{ $name }}</a></li>
+                    <li><a href="{{ collections.Index . 1 }}">{{ collections.Index . 0 }}</a></li>
                 {{ end }}
             </ul>
         </article>
