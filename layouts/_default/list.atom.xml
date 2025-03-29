@@ -27,7 +27,7 @@
       </author>
       <summary>{{ .Description }}</summary>
       <content type="html">
-        {{ .Summary | transform.XMLEscape | safeHTML }}
+        {{ .Content | transform.XMLEscape | safeHTML }}
       </content>
     </entry>
    {{ end }}
