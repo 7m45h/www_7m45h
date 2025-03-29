@@ -3,7 +3,6 @@
   <channel>
     <title>{{ .Site.Title }}: {{ .Title }}</title>
     <link>{{ .Permalink }}</link>
-    <atom:link rel="alternate" type="text/html" href="{{ .Permalink }}" />
     {{ with .OutputFormats.Get "atom" }}
       <atom:link rel="alternate" type="{{ .MediaType }}" href="{{ .Permalink }}" />
     {{ end }}

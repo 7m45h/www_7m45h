@@ -6,16 +6,15 @@ title = "stack"
 src = "content/stack.md"
 +++
 
-- web
-  - frameworks
-    - [hugo](https://gohugo.io/)
+- frameworks
+  - [hugo](https://gohugo.io/)
 
-  - hosting
-    - [cloudflare pages](https://pages.cloudflare.com/)
-    - [github pages](https://pages.github.com/)
+- hosting
+  - [cloudflare pages](https://pages.cloudflare.com/)
+  - [github pages](https://pages.github.com/)
 
-  - other
-    - [evil_manager](https://codeberg.org/7m45h/evil_manager)
-    - [impawards](http://www.impawards.com/)
-    - [sugar_crystaler.py](https://codeberg.org/7m45h/snippies/src/branch/master/sugar_crystaler.py)
-    - [themoviedb](https://www.themoviedb.org/)
+- other
+  - [evil_manager](https://codeberg.org/7m45h/evil_manager)
+  - [impawards](http://www.impawards.com/)
+  - [sugar_crystaler.py](https://codeberg.org/7m45h/snippies/src/branch/master/sugar_crystaler.py)
+  - [themoviedb](https://www.themoviedb.org/)
