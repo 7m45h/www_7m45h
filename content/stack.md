@@ -6,12 +6,12 @@ title = "stack"
 src = "content/stack.md"
 +++
 
-- frameworks
+- static site generator
   - [hugo](https://gohugo.io/)
 
 - hosting
   - [cloudflare pages](https://pages.cloudflare.com/)
-  - [github pages](https://pages.github.com/)
+  - [github](https://github.com/)
 
 - other
   - [evil_manager](https://codeberg.org/7m45h/evil_manager)
