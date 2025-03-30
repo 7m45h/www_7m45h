@@ -1,9 +1,12 @@
 # cache items atleast for a week
 
-/*.svg
+/*.avif
     Cache-Control: immutable
 
 /*.ico
+    Cache-Control: immutable
+
+/*.svg
     Cache-Control: immutable
 
 /*

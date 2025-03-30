@@ -3,14 +3,10 @@
         <h2>pages</h2>
         {{ partial "page_tree.html" . }}
     </article>
-    {{ with resources.Get "csvs/etc_pages.csv" | transform.Unmarshal }}
-        <article>
-            <h2>etc</h2>
-            <ul>
-                {{ range . }}
-                    <li><a href="{{ collections.Index . 1 }}">{{ collections.Index . 0 }}</a></li>
-                {{ end }}
-            </ul>
-        </article>
-    {{ end }}
+    <article>
+        <h2>etc</h2>
+        <ul>
+            <li><a href="https://7m45h.github.io/mudskipper/">mudskipper</a></li>
+        </ul>
+    </article>
 {{ end }}
