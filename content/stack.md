@@ -16,5 +16,5 @@ src = "content/stack.md"
 - other
   - [evil_manager](https://codeberg.org/7m45h/evil_manager)
   - [impawards](http://www.impawards.com/)
-  - [sugar_crystaler.py](https://codeberg.org/7m45h/snippies/src/branch/master/sugar_crystaler.py)
+  - [sc.py](https://codeberg.org/7m45h/snippies/src/branch/master/sc.py)
   - [themoviedb](https://www.themoviedb.org/)
