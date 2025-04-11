@@ -624,5 +624,4 @@ src = "content/blog/sugar_crystals.md"
 - [Lola Pearl](https://www.pornpics.com/pornstars/lola-pearl/)
 - [Elle Alexandra](https://www.pornpics.com/pornstars/elle-alexandra/)
 - [Miluna Elle](https://www.elitebabes.com/model/miluna-elle/)
-- [Shelena Teen](https://www.pornpics.com/?q=shelena+teen)
 - [Julia Ann](https://www.pornpics.com/pornstars/julia-ann/)
