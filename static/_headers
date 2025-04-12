@@ -1,13 +1,20 @@
-# cache items atleast for a week
+# 2628000 -> 1m
+#    3600 -> 1h
 
 /*.avif
-    Cache-Control: immutable
+    Cache-Control: public, max-age=2628000, immutable
 
 /*.ico
-    Cache-Control: immutable
+    Cache-Control: public, max-age=2628000, immutable
 
 /*.svg
-    Cache-Control: immutable
+    Cache-Control: public, max-age=2628000, immutable
 
-/*
-    Cache-Control: public, max-age=604800
+/*.txt
+    Cache-Control: public, max-age=2628000, immutable
+
+/*.html
+    Cache-Control: public, max-age=3600, must-revalidate, stale-while-revalidate=3600, stale-if-error=3600
+
+/*.xml
+    Cache-Control: public, max-age=3600, must-revalidate, stale-while-revalidate=3600, stale-if-error=3600

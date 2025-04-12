@@ -1,0 +1,7 @@
+{{ define "main" }}
+  {{ with resources.Get "confused_travolta.avif" | resources.Fingerprint "sha512" }}
+    <a href="https://knowyourmeme.com/memes/confused-travolta/">
+      <img src="{{ .RelPermalink }}" width="426" height="213" alt="Confused Travolta" />
+    </a>
+  {{ end }}
+{{ end }}
