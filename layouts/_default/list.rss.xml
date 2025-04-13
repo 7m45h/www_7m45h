@@ -27,9 +27,7 @@
         <guid>{{ .Permalink }}</guid>
         <pubDate>{{ .Lastmod.UTC.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
         <description>{{ .Description }}</description>
-        <content:encoded>
-          {{ .Content | transform.XMLEscape | safeHTML }}
-        </content:encoded>
+        <content:encoded>{{ .Content | transform.XMLEscape }}</content:encoded>
       </item>
     {{ end }}
   </channel>

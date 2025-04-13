@@ -2,7 +2,6 @@ capitalizeListTitles = false
 copyright = "AGPL-3.0-or-later"
 disableKinds = ["taxonomy", "term"]
 enableGitInfo = true
-enableRobotsTXT = true
 languageCode = "en"
 noChmod = true
 noTimes = true
@@ -15,7 +14,6 @@ timeZone = "UTC"
 title = "7m45h"
 
 [build]
-noJSConfigInAssets = true
 useResourceCacheWhen = "always"
 [build.buildStats]
 enable = true
@@ -26,15 +24,10 @@ suffixes = ["xml"]
 
 [minify]
 minifyOutput = true
-[minify.tdewolff.css]
-keepCSS2 = false
 [minify.tdewolff.html]
 keepDefaultAttrVals = false
 keepQuotes = true
-[minify.tdewolff.js]
-version = 0
-[minify.tdewolff.json]
-keepNumbers = true
+keepSpecialComments = false
 
 [outputFormats]
 [outputFormats.atom]
@@ -50,9 +43,6 @@ section = ["html", "rss", "atom"]
 [params]
 author = "tmash"
 src = "https://github.com/7m45h/www_7m45h/tree/master/"
-
-[security]
-enableInlineShortcodes = true
 
 [sitemap]
 changefreq = "weekly"

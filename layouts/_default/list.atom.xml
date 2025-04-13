@@ -26,9 +26,7 @@
         <name>{{ .GitInfo.AuthorName }}</name>
       </author>
       <summary>{{ .Description }}</summary>
-      <content type="html">
-        {{ .Content | transform.XMLEscape | safeHTML }}
-      </content>
+      <content type="html">{{ .Content | transform.XMLEscape }}</content>
     </entry>
    {{ end }}
 </feed>
