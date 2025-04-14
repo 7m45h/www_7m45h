@@ -1,1 +1,0 @@
-{{ strings.ReplaceRE `\n{3,}` "\n\n" .RenderShortcodes | strings.TrimSpace }}
