@@ -11,6 +11,7 @@ list = "never"
 {{ .RelPermalink }}
     ! ETag
     ETag: "{{ $h }}"
+    x-da-header: "gg"
 {{ with .OutputFormats.Get "rss" }}
 {{ .RelPermalink }}
     ! ETag
