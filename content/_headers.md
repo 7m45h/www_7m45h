@@ -7,8 +7,9 @@ list = "never"
 
 {{< cache_ctrl.inline >}}
 {{ range site.Pages }}
-{{ $h := hash.FNV32a .Lastmod }}
+{{ $h := crypto.MD5 .Lastmod }}
 {{ .RelPermalink }}
+    ! ETag
     ETag: "{{ $h }}"
 {{ with .OutputFormats.Get "rss" }}
 {{ .RelPermalink }}
