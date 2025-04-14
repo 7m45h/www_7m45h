@@ -7,10 +7,18 @@ list = "never"
 
 {{< cache_ctrl.inline >}}
 {{ range site.Pages }}
-{{ $url := .RelPermalink }}
-{{ with .GitInfo.AbbreviatedHash  }}
-{{ $url }}
-    ETag: "{{ . }}"
+{{ $h := hash.FNV32a .Lastmod }}
+{{ .RelPermalink }}
+    ETag: "{{ $h }}"
+{{ with .OutputFormats.Get "rss" }}
+{{ .RelPermalink }}
+    ! ETag
+    ETag: "{{ $h }}"
+{{ end }}
+{{ with .OutputFormats.Get "atom" }}
+{{ .RelPermalink }}
+    ! ETag
+    ETag: "{{ $h }}"
 {{ end }}
 {{ end }}
 {{</ cache_ctrl.inline >}}
