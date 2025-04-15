@@ -21,6 +21,8 @@ enable = true
 [mediaTypes]
 [mediaTypes."application/atom+xml"]
 suffixes = ["xml"]
+[mediaTypes."text/cloudflare"]
+delimiter = ""
 
 [minify]
 minifyOutput = true
@@ -35,6 +37,11 @@ baseName = "atom"
 mediaType = "application/atom+xml"
 [outputFormats.rss]
 baseName = "rss"
+[outputFormats.headers]
+baseName = "_headers"
+isPlainText = true
+mediatype = "text/cloudflare"
+notAlternative = true
 
 [outputs]
 home = ["html", "rss", "atom"]
@@ -43,6 +50,9 @@ section = ["html", "rss", "atom"]
 [params]
 author = "tmash"
 src = "https://github.com/7m45h/www_7m45h/tree/master/"
+
+[security]
+enableInlineShortcodes = true
 
 [sitemap]
 changefreq = "weekly"
