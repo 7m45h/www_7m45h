@@ -3,7 +3,7 @@ description = "list of movies I enjoyed watching"
 draft = false
 keywords = ["movie", "list"]
 title = "evil_list"
-src = "content/blog/evil_list.md"
+src = "content/evil_list.md"
 +++
 
 - [Cat Shit One - 2010](https://www.imdb.com/title/tt2368669/)

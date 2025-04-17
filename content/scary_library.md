@@ -3,7 +3,7 @@ description = "list of hyper links"
 draft = false
 keywords = ["internet", "directory"]
 title = "scary_library"
-src = "content/blog/scary_library.md"
+src = "content/scary_library.md"
 +++
 
 ### cs
