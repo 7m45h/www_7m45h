@@ -6,9 +6,10 @@ list = "never"
 +++
 
 {{< cache_ctrl.inline >}}
+{{ $b := time.ParseDuration "1h" | time.Now.UTC.Add | time.Format "Mon, 02 Jan 2006 15:04:05 GMT" }}
 {{ range site.Pages }}
 {{ .RelPermalink }}
-    Last-Modified: {{ .Lastmod.UTC.Format "Mon, 02 Jan 2006 15:04:05 GMT" }}
+    Last-Modified: {{ $b }}
 {{ end }}
 {{</ cache_ctrl.inline >}}
 

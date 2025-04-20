@@ -12,7 +12,7 @@
     <description>{{ .Description }}</description>
     <language>{{ .Site.Language.LanguageCode }}</language>
     <copyright>{{ .Site.Copyright }}</copyright>
-    <lastBuildDate>{{ .Lastmod.UTC.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
+    <lastBuildDate>{{ time.Now.UTC.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
     <generator>Hugo</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>10080</ttl>
