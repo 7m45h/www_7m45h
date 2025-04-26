@@ -47,19 +47,23 @@ src = "content/scary_library.md"
 - [creativecommons.org](https://creativecommons.org/)
 - [github.com](https://github.com/)
 - [picsum.photos](https://picsum.photos/)
+- [semver.org](https://semver.org/)
 - [suckless.org](https://suckless.org/)
 - [www.gentoo.org](https://www.gentoo.org/)
 - [www.parabola.nu](https://www.parabola.nu/)
 - [www.wtfpl.net](https://www.wtfpl.net/)
+- [ziglang.org](https://ziglang.org/)
 
 ### docs
 - [developer.mozilla.org](https://developer.mozilla.org/)
 - [docs.helix-editor.com](https://docs.helix-editor.com/)
+- [en.wikibooks.org](https://en.wikibooks.org/)
 - [gohugo.io](https://gohugo.io/)
 - [rust-book.cs.brown.edu](https://rust-book.cs.brown.edu/)
 - [wiki.archlinux.org](https://wiki.archlinux.org/)
 - [wiki.gentoo.org](https://wiki.gentoo.org/)
 - [wiki.installgentoo.com](https://wiki.installgentoo.com/)
+- [wiki.osdev.org](https://wiki.osdev.org/)
 - [wiki.parabola.nu](https://wiki.parabola.nu/)
 - [zig.guide](https://zig.guide/)
 
