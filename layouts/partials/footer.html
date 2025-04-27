@@ -1,7 +1,5 @@
 {{ if or .IsSection .IsHome }}
-  <span>
-    feeds:{{ with .OutputFormats.Get "rss" }} <a href="{{ .RelPermalink }}">rss</a>{{ end }}{{ with .OutputFormats.Get "atom" }} <a href="{{ .RelPermalink }}">atom</a>{{ end }}
-  </span>
+  {{ with .OutputFormats.Get "rss" }}<a href="{{ .RelPermalink }}">{{ with resources.Get "rss.svg" | resources.Minify }}<img src="{{ .RelPermalink }}" style="width: 1em; height: 1em;" alt="rss feed" title="rss feed">{{ end }}</a>{{ end }}{{ with .OutputFormats.Get "atom" }} <a href="{{ .RelPermalink }}">{{ with resources.Get "atom.svg" | resources.Minify }}<img src="{{ .RelPermalink }}" style="width: 1em; height: 1em;" alt="atom feed" title="atom feed">{{ end }}</a>{{ end }}
   <br>
 {{ end }}
-<span>last update:{{ with .GitInfo.AbbreviatedHash  }} <a href="{{ urls.JoinPath site.Params.src $.Params.src }}"><code>{{ . }}</code></a> in{{ end }} <time datetime="{{ $.Lastmod.UTC.Format "2006-01-02" }}">{{ $.Lastmod.UTC.Format "2006-01-02" }}</time> &COPY; <a href="https://www.gnu.org/licenses/agpl.html">{{ $.Site.Copyright }}</a></span>
+<span>last update{{ with .GitInfo.AbbreviatedHash  }}: <a href="{{ urls.JoinPath site.Params.src $.Params.src }}"><code>{{ . }}</code></a> in{{ end }} <time datetime="{{ $.Lastmod.UTC.Format "2006-01-02" }}">{{ $.Lastmod.UTC.Format "2006-01-02" }}</time> &COPY; <a href="https://www.gnu.org/licenses/agpl.html">{{ $.Site.Copyright }}</a></span>
