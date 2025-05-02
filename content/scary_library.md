@@ -34,10 +34,12 @@ src = "content/scary_library.md"
 ### cs
 - [beej.us](https://beej.us/)
 - [daviac.net](https://daviac.net/)
+- [helderman.github.io](https://helderman.github.io/)
 - [overthewire.org](https://overthewire.org/)
 - [people.ece.cornell.edu](https://people.ece.cornell.edu/)
 - [vulkan-tutorial.com](https://vulkan-tutorial.com/)
 - [webrtcforthecurious.com](https://webrtcforthecurious.com/)
+- [www.learn-c.org](https://www.learn-c.org/)
 - [www.red3d.com](https://www.red3d.com/)
 - [www.smashthestack.org](https://www.smashthestack.org/)
 
@@ -89,6 +91,7 @@ src = "content/scary_library.md"
 - [gumroad.com](https://gumroad.com/)
 - [jacksonpollock.org](https://jacksonpollock.org/)
 - [kotsoft.github.io](https://kotsoft.github.io/)
+- [librelingo.app](https://librelingo.app/)
 - [madamevoyeur.com](https://madamevoyeur.com/)
 - [motherfuckingwebsite.com](https://motherfuckingwebsite.com/)
 - [opensea.io](https://opensea.io/)

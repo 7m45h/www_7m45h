@@ -164,3 +164,5 @@ src = "content/evil_list.md"
 - [Office Space - 1999](https://www.imdb.com/title/tt0151804/)
 - [Tron - 1982](https://www.imdb.com/title/tt0084827/)
 - [Tron: Legacy - 2010](https://www.imdb.com/title/tt1104001/)
+- [The Peanuts Movie - 2015](https://www.imdb.com/title/tt2452042/)
+- [Tomboy - 2011](https://www.imdb.com/title/tt1847731/)
